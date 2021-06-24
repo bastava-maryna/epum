@@ -23,8 +23,6 @@ public class FunctionValue3 {
 		double numerator=Math.sin(xRad)+Math.cos(yRad);
 		double denominator=Math.cos(xRad)-Math.sin(yRad);
 		
-		//не уверена что эти проверки когда-нибудь сработают
-		//не понимаю как получить табличные значения, установить точность и округлять?
 		if(Math.cos(xyRad)==0.0) {
 			System.out.println("Tangens undefined");
 		}
